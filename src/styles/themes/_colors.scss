@@ -1,0 +1,42 @@
+:root.colors {
+	--color-primary: var(--blue-7);
+	--color-secondary: var(--pink-5);
+
+	--body-col: var(--gray-9);
+	--body-bg: var(--gray-1);
+	--header-col: var(--gray-1);
+	--header-bg: var(--color-primary);
+	--section-alt-col: var(--gray-1);
+	--section-alt-bg: var(--color-primary);
+
+	.theme-toggler--active {
+		.theme-toggler__icon {
+			fill: var(--color-primary);
+		}
+	}
+	.theme-switcher {
+		color: var(--gray-9);
+		background: var(--gray-1);
+
+		input[type='radio']:checked + label {
+			color: var(--gray-1);
+			background: var(--color-primary);
+		}
+	}
+
+	h2,
+	h3 {
+		color: var(--color-secondary);
+	}
+	.section--color {
+		h2,
+		h3 {
+			color: var(--body-bg);
+		}
+	}
+
+	.blob {
+		color: var(--gray-1);
+		background: var(--color-primary);
+	}
+}

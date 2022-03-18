@@ -1,0 +1,15 @@
+:root {
+	--max-content-width: 1200px;
+	--padding-x: 40px;
+
+	--body-col: var(--gray-8);
+	--body-bg: var(--gray-2);
+	--header-col: var(--gray-1);
+	--header-bg: var(--gray-8);
+}
+
+// open props override
+:root {
+	--font-sans: 'Poppins', sans-serif;
+	--font-serif: 'Noto Serif Display', serif;
+}

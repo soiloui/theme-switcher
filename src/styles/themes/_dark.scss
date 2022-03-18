@@ -1,0 +1,27 @@
+:root.dark {
+	--body-col: var(--gray-1);
+	--body-bg: var(--gray-9);
+	--header-col: var(--gray-1);
+	--header-bg: var(--gray-8);
+	--section-alt-col: var(--gray-1);
+	--section-alt-bg: var(--gray-8);
+
+	.theme-switcher {
+		color: var(--gray-1);
+		background: var(--gray-7);
+
+		input[type='radio']:checked + label {
+			color: var(--gray-1);
+			background: var(--gray-9);
+		}
+	}
+
+	.blob {
+		color: var(--gray-9);
+		background: var(--gray-1);
+	}
+
+	.card {
+		background: var(--gray-8);
+	}
+}

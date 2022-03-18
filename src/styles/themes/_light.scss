@@ -1,0 +1,23 @@
+:root.light {
+	--body-col: var(--gray-9);
+	--body-bg: var(--gray-2);
+	--header-col: var(--gray-9);
+	--header-bg: var(--gray-1);
+	--section-alt-col: var(--gray-9);
+	--section-alt-bg: var(--gray-3);
+
+	.theme-switcher {
+		color: var(--gray-9);
+		background: var(--gray-3);
+
+		input[type='radio']:checked + label {
+			color: var(--gray-9);
+			background: var(--gray-1);
+		}
+	}
+
+	.blob {
+		color: var(--gray-1);
+		background: var(--gray-9);
+	}
+}
