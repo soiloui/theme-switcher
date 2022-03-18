@@ -2,20 +2,14 @@ section p {
 	text-align: justify;
 }
 
-.columns-blob {
-	display: flex;
-	align-items: center;
-	gap: 50px;
-	margin-bottom: 60px;
-}
-
 .blob {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	min-width: 250px;
+	width: min(200px, 100%);
 	height: 200px;
 	padding: 1em 0.5em;
+	margin: 3em auto;
 
 	text-align: center;
 	font-size: var(--font-size-fluid-1);
@@ -25,8 +19,8 @@ section p {
 
 .cards {
 	display: grid;
-	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-	gap: 30px;
+	grid-template-columns: 1fr;
+	gap: 20px;
 }
 .card {
 	padding: 1em 2em;
@@ -36,5 +30,22 @@ section p {
 	h3 {
 		text-align: center;
 		margin-bottom: 1em;
+	}
+}
+
+@media (--md-n-above) {
+	.columns-blob {
+		display: flex;
+		align-items: center;
+		gap: 50px;
+		margin-bottom: 60px;
+	}
+	.blob {
+		min-width: 250px;
+	}
+
+	.cards {
+		grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+		gap: 30px;
 	}
 }
