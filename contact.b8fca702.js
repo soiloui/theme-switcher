@@ -624,4 +624,4 @@ const soilNav = function() {
 
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}]},["d3wGw","3cYfC"], "3cYfC", "parcelRequire9213")
 
-//# sourceMappingURL=contact.b8fca702.js.map
+//# sourceMappingURL=index.b8fca702.js.map
